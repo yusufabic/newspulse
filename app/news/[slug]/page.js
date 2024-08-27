@@ -1,4 +1,4 @@
-import { DUMMY_NEWS } from "@/app/dummy-news";
+import { DUMMY_NEWS } from "@/dummy-news";
 import { notFound } from "next/navigation";
 
 export default function NewsDetail({ params }) {
