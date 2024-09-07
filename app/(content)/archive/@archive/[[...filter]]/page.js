@@ -68,7 +68,7 @@ export default async function FilteredNewsPage({ params }) {
       {/* <Suspense fallback={<p>Loading filter...</p>}>
         <FilteredHeader year={selectedYear} month={selectedMonths} />
       </Suspense> */}
-      <Suspense fallback={<p>Loading news...</p>}>
+      <Suspense fallback={<p>Loading news..</p>}>
         <FilteredHeader year={selectedYear} month={selectedMonths} />
         <FilteredNews year={selectedYear} month={selectedMonths} />
       </Suspense>
